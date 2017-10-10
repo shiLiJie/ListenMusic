@@ -7,17 +7,75 @@
 //
 
 #import "AppDelegate.h"
+#import "TextViewController.h"
+#import "PlusButton.h"
+#import "TabBarControllerConfig.h"
+#import "AppDelegate+YCLaunchAd.h"
+#import "LJLoginViewController.h"
+
 
 @interface AppDelegate ()
+
+@property (strong, nonatomic) UIView *lunchView;
+
+@property (nonatomic, strong) TabBarControllerConfig *tabBarControllerConfig;
 
 @end
 
 @implementation AppDelegate
+@synthesize lunchView;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // window初始化
+    _window = [[UIWindow alloc]init];
+    _window.frame = [UIScreen mainScreen].bounds;
+    
+    
+    //根据需求加广告页,这里代替连接启动页完成gif效果
+//    [self setupYCLaunchAd];
+    
+    // 添加跟控制器
+    [self addTabbarVc];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeEn) name:@"ENGLISH" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeCh) name:@"CHINESE" object:nil];
+    
     return YES;
+}
+
+-(void)addTabbarVc{
+    
+    // 中间按钮
+//    [PlusButton registerPlusButton];
+    
+    LJLoginViewController *login = [[LJLoginViewController alloc] init];
+    UINavigationController *vc = [[UINavigationController alloc] initWithRootViewController:login];
+    _window.rootViewController = vc;
+    
+    // 添加根控制器
+//    self.tabBarControllerConfig = [[TabBarControllerConfig alloc]init];
+//    _window.rootViewController = self.tabBarControllerConfig.tabBarController;
+    
+    
+    [_window makeKeyAndVisible];
+}
+
+-(void)chaninde2
+{
+    self.tabBarControllerConfig.tabBarController.selectedIndex = 1;
+    
+}
+
+
+-(void)changeEn{
+    [self addTabbarVc];
+}
+
+
+-(void)changeCh{
+    [self addTabbarVc];
 }
 
 

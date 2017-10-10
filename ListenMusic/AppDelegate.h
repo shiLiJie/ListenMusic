@@ -12,6 +12,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+-(void)addTabbarVc;
+
+-(void)chaninde2;
 
 @end
 

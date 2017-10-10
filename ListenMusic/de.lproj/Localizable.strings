@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  ListenMusic
+
+  Created by 凤凰八音 on 2017/9/19.
+  Copyright © 2017年 fenghuangbayin. All rights reserved.
+*/
+
+
+"home" = "home";
+"next" = "next";
+"chooseLaunch" = "chooseLaunch";
+"Chinese" = "Chinses";
+"English" = "English";
+"German"  = "German";
+"tuodongyilianjie" = "tuodongyilianjie";
+"help" = "help";
+"goumai" = "goumai";
+"weilianjieshebei" = "weilianjieshebei";
+"①lab1" = "①lab1";
+"②lab1" = "②lab1";
+"③lab1" = "③lab1";

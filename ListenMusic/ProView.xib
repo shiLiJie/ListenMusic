@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="58n-LQ-Jhe" customClass="ProView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gray-bg" translatesAutoresizingMaskIntoConstraints="NO" id="DJA-AS-0lf">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="验证码已发送" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5n-SR-xUz">
+                    <rect key="frame" x="135" y="323" width="104" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="DJA-AS-0lf" firstAttribute="leading" secondItem="58n-LQ-Jhe" secondAttribute="leading" id="5kL-JT-rxt"/>
+                <constraint firstItem="T5n-SR-xUz" firstAttribute="centerY" secondItem="DJA-AS-0lf" secondAttribute="centerY" id="Tso-4L-SmI"/>
+                <constraint firstAttribute="bottom" secondItem="DJA-AS-0lf" secondAttribute="bottom" id="a9z-Ri-vOc"/>
+                <constraint firstAttribute="trailing" secondItem="DJA-AS-0lf" secondAttribute="trailing" id="gJs-sC-Xn2"/>
+                <constraint firstItem="T5n-SR-xUz" firstAttribute="centerX" secondItem="DJA-AS-0lf" secondAttribute="centerX" id="hK3-G2-ssU"/>
+                <constraint firstItem="DJA-AS-0lf" firstAttribute="top" secondItem="58n-LQ-Jhe" secondAttribute="top" id="ngP-To-euE"/>
+            </constraints>
+            <connections>
+                <outlet property="alterLab" destination="T5n-SR-xUz" id="GEs-xb-xWy"/>
+                <outlet property="imageBg" destination="DJA-AS-0lf" id="HCz-sg-gLf"/>
+            </connections>
+            <point key="canvasLocation" x="30" y="-26"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gray-bg" width="318" height="120"/>
+    </resources>
+</document>

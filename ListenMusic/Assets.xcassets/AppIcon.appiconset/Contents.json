@@ -2,12 +2,30 @@
   "images" : [
     {
       "idiom" : "iphone",
-      "size" : "29x29",
+      "size" : "20x20",
       "scale" : "2x"
+    },
+    {
+      "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "WechatIMG186iPhoneNotification_20pt@3x.png",
+      "scale" : "3x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "WechatIMG186iPadSpootlight5_29pt.png",
+      "scale" : "1x"
     },
     {
       "idiom" : "iphone",
       "size" : "29x29",
+      "scale" : "2x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "filename" : "WechatIMG186iPhoneSpootlight5_29pt@3x.png",
       "scale" : "3x"
     },
     {
@@ -16,28 +34,56 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "WechatIMG186iPhoneSpootlight7_40pt@3x.png",
       "scale" : "3x"
     },
     {
+      "size" : "57x57",
       "idiom" : "iphone",
+      "filename" : "57pt.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "57x57",
+      "idiom" : "iphone",
+      "filename" : "57pt@2x.png",
+      "scale" : "2x"
+    },
+    {
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "WechatIMG186iPhoneApp_60pt@2x.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "WechatIMG186iPhoneApp_60pt@3x.png",
       "scale" : "3x"
     },
     {
+      "size" : "20x20",
+      "idiom" : "ipad",
+      "filename" : "WechatIMG186iPadNotifications_20pt.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "20x20",
+      "idiom" : "ipad",
+      "filename" : "WechatIMG186iPadNotifications_20pt@2x.png",
+      "scale" : "2x"
+    },
+    {
       "idiom" : "ipad",
       "size" : "29x29",
       "scale" : "1x"
     },
     {
-      "idiom" : "ipad",
       "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "WechatIMG186iPadSpootlight5_29pt@2x.png",
       "scale" : "2x"
     },
     {
@@ -51,14 +97,98 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "ipad",
       "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "WechatIMG186iPadApp_76pt.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "ipad",
       "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "WechatIMG186iPadApp_76pt@2x.png",
       "scale" : "2x"
+    },
+    {
+      "size" : "83.5x83.5",
+      "idiom" : "ipad",
+      "filename" : "WechatIMG186iPadProApp_83.5pt@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "20x20",
+      "idiom" : "ipad",
+      "filename" : "WechatIMG186iPadSpootlight7_40pt.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "size" : "20x20",
+      "idiom" : "ipad",
+      "filename" : "WechatIMG186iPhoneNotification_20pt@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "ipad",
+      "filename" : "WechatIMG186iPhoneSpootlight5_29pt@2x.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "role" : "notificationCenter",
+      "size" : "24x24",
+      "idiom" : "watch",
+      "filename" : "48.png",
+      "subtype" : "38mm",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "role" : "appLauncher",
+      "size" : "40x40",
+      "idiom" : "watch",
+      "filename" : "WechatIMG186iPadSpootlight7_40pt@2x.png",
+      "subtype" : "38mm",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "role" : "appLauncher",
+      "size" : "40x40",
+      "idiom" : "watch",
+      "filename" : "WechatIMG186iPhoneSpootlight7_40pt@2x.png",
+      "subtype" : "38mm",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "size" : "16x16",
+      "idiom" : "mac",
+      "filename" : "16.png",
+      "unassigned" : true,
+      "scale" : "1x"
+    },
+    {
+      "size" : "16x16",
+      "idiom" : "mac",
+      "filename" : "32.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "size" : "32x32",
+      "idiom" : "mac",
+      "filename" : "64.png",
+      "unassigned" : true,
+      "scale" : "2x"
+    },
+    {
+      "size" : "128x128",
+      "idiom" : "mac",
+      "filename" : "128.png",
+      "unassigned" : true,
+      "scale" : "1x"
     }
   ],
   "info" : {

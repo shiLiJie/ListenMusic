@@ -80,6 +80,7 @@
                                                  parameters:dict
                                                     success:^(id obj) {
                                                         NSString *msg = [NSString getResponseMsgWithObject:obj];
+                                                        NSLog(@"%@",msg);
                                                         NSLog(@"%@",obj);
                                                         
                                                         

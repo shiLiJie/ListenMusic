@@ -87,7 +87,12 @@
 #pragma mark - TabBarAppearance
 - (void)customizeTabBarAppearance:(CYLTabBarController *)tabBarController {
     // 自定义 TabBar 高度
-    tabBarController.tabBarHeight = 59.f;
+    if (kDevice_Is_iPhoneX) {
+        tabBarController.tabBarHeight = 83.f;
+    }else{
+        tabBarController.tabBarHeight = 49.f;
+    }
+    
     
     // set the text color for unselected state
     // 普通状态下的文字属性

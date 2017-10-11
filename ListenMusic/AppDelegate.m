@@ -50,13 +50,13 @@
     // 中间按钮
 //    [PlusButton registerPlusButton];
     
-    LJLoginViewController *login = [[LJLoginViewController alloc] init];
-    UINavigationController *vc = [[UINavigationController alloc] initWithRootViewController:login];
-    _window.rootViewController = vc;
+//    LJLoginViewController *login = [[LJLoginViewController alloc] init];
+//    UINavigationController *vc = [[UINavigationController alloc] initWithRootViewController:login];
+//    _window.rootViewController = vc;
     
     // 添加根控制器
-//    self.tabBarControllerConfig = [[TabBarControllerConfig alloc]init];
-//    _window.rootViewController = self.tabBarControllerConfig.tabBarController;
+    self.tabBarControllerConfig = [[TabBarControllerConfig alloc]init];
+    _window.rootViewController = self.tabBarControllerConfig.tabBarController;
     
     
     [_window makeKeyAndVisible];

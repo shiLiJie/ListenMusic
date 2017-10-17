@@ -1,0 +1,63 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BabyBluetooth (0.7.0)
+  - CYLTabBarController (1.12.1)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - IQKeyboardManager (4.0.10)
+  - JTCalendar (2.1.9)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - TMCache (2.1.0)
+  - ZYBannerView (1.1.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BabyBluetooth
+  - CYLTabBarController
+  - FMDB
+  - IQKeyboardManager
+  - JTCalendar
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - SDWebImage
+  - TMCache
+  - ZYBannerView
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BabyBluetooth: d50758aecf24d4a0ab9271d69f0f116d6bee51c9
+  CYLTabBarController: a0b6711bf66a763f871937e0ab3ea99934410be3
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  IQKeyboardManager: 593ee99b88381f4b9ccb22bd680f22606351bd41
+  JTCalendar: beb2f4c1b639bf6880f680b4858227acf83a049c
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
+  ZYBannerView: e206cf9e55dd303fa5e40caa2b1d42b2581ee50c
+
+PODFILE CHECKSUM: 68780e0ba6f2a3e311bf9d6113d92b2dd9e65833
+
+COCOAPODS: 1.3.0.beta.1

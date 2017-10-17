@@ -30,6 +30,7 @@
     
     // git测试
     // shiljie测试
+    // 10.34
     
     // window初始化
     _window = [[UIWindow alloc]init];

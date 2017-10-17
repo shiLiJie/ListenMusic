@@ -28,6 +28,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    // git测试
+    
     // window初始化
     _window = [[UIWindow alloc]init];
     _window.frame = [UIScreen mainScreen].bounds;

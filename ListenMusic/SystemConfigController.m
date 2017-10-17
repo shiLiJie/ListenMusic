@@ -66,6 +66,10 @@
     return 6;
 }
 
+static SystemConfigCell * extracted(SystemConfigController *object) {
+    return object.cell;
+}
+
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     static NSString *CellIdentifier = @"Cell";
@@ -79,7 +83,7 @@
     tableView.backgroundColor = [UIColor clearColor];
 
     
-    return self.cell;
+    return extracted(self);
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
